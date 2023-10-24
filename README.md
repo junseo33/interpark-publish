@@ -7,7 +7,7 @@
 
 ### 적용기술
 
-- htm1
+- html
 - css
 - js
 - Swiper
