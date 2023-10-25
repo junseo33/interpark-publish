@@ -7,14 +7,13 @@
 }
 
 .header-inner {
-    position: relative;
-    width: 1280px;
-    height: 160px;
-    display: block;
-    /* block 을 가운데 정렬한다. */
-    margin: 0px auto;
-    
-    padding-top: 1px;
+  position: relative;
+  width: 1280px;
+  height: 160px;
+  display: block;
+  /* block 을 가운데 정렬한다. */
+  margin: 0px auto;
+  padding-top: 1px;
 }
 
 .header-top {
@@ -26,15 +25,14 @@
   justify-content: space-between;
   margin-top: 28px;
 }
-.header-top-left{
-    position: relative;
+.header-top-left {
+  position: relative;
 
-    width: 625px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
+  width: 625px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -45,23 +43,21 @@
   display: block;
   background-image: url("../images/logo.svg");
 }
-.header-search{
-    position: relative;
-    
-    
-    width: 454px;
-    height: 50px;
-    display: flex;
-    
-    /* 세로 중앙 */
-    align-items: center;
-    padding-right: 10px;
-    
-    padding-left: 23px;
-    
 
-    border: 1px solid #d9d9d9;
-    border-radius: 25px;
+.header-search {
+  position: relative;
+
+  width: 454px;
+  height: 50px;
+  display: flex;
+  /* 세로 중앙 */
+  align-items: center;
+  padding-right: 10px;
+
+  padding-left: 23px;
+
+  border: 1px solid #d9d9d9;
+  border-radius: 25px;
 }
 /* 상품 검색 */
 .search-form {
@@ -70,29 +66,27 @@
   display: flex;
   justify-content: space-between;
 }
-
 .search-word {
-    position: relative;
-    width: 100%;
-    border: none;
-    font-size: 1.6rem;
-    font-weight: 700;
+  position: relative;
+  width: 100%;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 700;
 }
-   
-
 .search-bt {
-    position: relative;
-    width: 45px;
-    height: 45px;
-    border: none;
-    background-color: transparent;
-    background-image: url("../images/btn_search.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    font-size: 0;
-/* 커서바꾸기 */
-cursor: pointer;
+  position: relative;
+  width: 45px;
+  height: 45px;
+  border: none;
+  background-color: transparent;
+  background-image: url("../images/btn_search.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 0;
+  /* 커서 바꾸기 */
+  cursor: pointer;
 }
+
 .header-top-right {
   position: relative;
 
@@ -103,11 +97,10 @@ cursor: pointer;
   align-items: center;
 }
 .member-menu {
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-  
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 .member-menu li {
   position: relative;
@@ -119,47 +112,43 @@ cursor: pointer;
   align-items: center;
   font-size: 1.5rem;
   font-weight: 500;
-  
 }
 .mypage-bt img {
   margin-left: 5px;
 }
 
 .header-bottom {
-    position: relative;
+  position: relative;
 
-    width: 100%;
-    height: 30px;
-    display: flex;
-    /* 세로 중앙 정렬 */
-    align-items: center;
-    margin-top: 30px;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  /* 세로 중앙 정렬 */
+  align-items: center;
+  margin-top: 30px;
 }
-    
-
 .header-cate {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
 }
 .header-cate li {
   position: relative;
   margin-right: 22px;
 }
 .header-cate li a {
-    position: relative;
-    display: flex;
-    /* 세로 중앙 */
-    align-items: center;
-    font-size: 1.6rem;
-    font-weight: 600;
-  
+  position: relative;
+  display: flex;
+  /* 세로 중앙 */
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: 600;
 }
 
-/*
-  after 와 before 는 기본적으로 inline 이다.
-  width, height, margin, padding 원할하지 않다.
-  그래서 많은 사람들이 dislpay 별도로 준다. 
+/* 
+  after 와 before 는 기본적으로 inline 이다. 
+  width, height, margin, padding 원활하지 않다.
+  그래서 많은 사람들이 display 별도로 준다.
 */
 .icon-hot::after {
   content: "";
@@ -178,8 +167,8 @@ cursor: pointer;
   height: auto;
   margin-right: 6px;
 }
- f
-.header-today-menu{
+
+.header-today-menu {
   position: relative;
   display: flex;
 }
@@ -191,28 +180,23 @@ cursor: pointer;
   left: -10px;
   width: 1px;
   height: 16px;
-  
-  
+
   display: block;
   background-color: #e9e9e9;
 }
 
-
 .header-today-menu li {
   position: relative;
   margin-right: 22px;
-  
 }
-.header-today-menu li a{
+.header-today-menu li a {
   position: relative;
   display: flex;
   align-items: center;
   font-size: 1.6rem;
   font-weight: 600;
-  color: #000;
-  text-decoration: none;
 }
-.header-today-menu li a img{
+.header-today-menu li a img {
   position: relative;
   width: 30px;
   margin-right: 6px;

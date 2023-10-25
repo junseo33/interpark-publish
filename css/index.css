@@ -3,6 +3,7 @@
 @import url("common.css");
 @import url("layout.css");
 @import url("header.css");
+@import url("viscul.css");
 @import url("footer.css");
 
 * {
@@ -11,14 +12,14 @@
   outline-style: none;
   box-sizing: border-box;
 }
-a{
+a {
   color: #111;
   text-decoration: none;
 }
 ul {
   list-style: none;
 }
-img{
+img {
   border: 0;
   vertical-align: middle;
 }
@@ -27,11 +28,11 @@ html {
   font-size: 10px;
 }
 body {
-  font-family:"Pretendard", sans-serif;
+  font-family: "Pretendard", sans-serif;
   font-size: 1.3rem;
   font-weight: 400;
   line-height: 1;
-  color: #000;
+  color: #000000;
   letter-spacing: -0.64px;
   word-break: keep-all;
 }
