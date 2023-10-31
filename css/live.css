@@ -1,0 +1,40 @@
+.live {
+  position: relative;
+  padding-top: 0;
+  padding-bottom: 90px;
+  text-align: center;
+
+  background-color: aqua;
+}
+
+.live-inner {
+  position: relative;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.recommend-header {
+  position: relative;
+}
+
+.live-slide-wrap {
+  position: relative;
+  height: 455px;
+  margin-top: 23px;
+}
+.live-img {
+  position: relative;
+
+  width: 100%;
+  height: 244px;
+  overflow: hidden;
+}
+.live-img img {
+  /*position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
